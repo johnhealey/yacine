@@ -1,4 +1,4 @@
-(function(jwplayer){
+(function(jwplayer1){
 
     var template = function(_player, config, _div) {    
         
