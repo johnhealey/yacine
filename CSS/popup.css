@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+#popup {
+    width: 640px;
+    margin: 0 auto;
+}
+
+#topline {
+    width: 640px;
+    height: 6px;
+    background:url(../images/TopLine.png) repeat-x;     
+}
+#content {    
+    width: 636px;
+    height: 525px;
+    background-color: #efefef;
+    margin: 2px;
+    padding-top: 20px;
+}
+#bottomline {        
+    width: 640px;
+    height: 6px;
+    background:url(../images/BottomLine.png) repeat-x;
+}
+#content_top {    
+    margin: 0 auto 20px;
+    width: 581px;
+    height: 93px;
+    background:url(../images/content_top.png)  no-repeat scroll center center transparent;
+}
+
+/************ content left ****************/
+#content_left {
+    background: url("../images/content_left_frame.png") no-repeat scroll right top transparent;
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 364px;
+}
+#content_left div {
+    width: 120px;
+    height: 50px;
+    margin: 6px;
+}
+
+#content_left_btn1 {background:url(../images/content_left_button1-0.png) no-repeat scroll center center transparent;}
+#content_left_btn1:hover {background:url(../images/content_left_button1-1.png) no-repeat scroll center center transparent;}
+#content_left_btn2 {background:url(../images/content_left_button2-0.png) no-repeat scroll center center transparent;}
+#content_left_btn2:hover {background:url(../images/content_left_button2-1.png) no-repeat scroll center center transparent;}
+#content_left_btn3 {background:url(../images/content_left_button3-0.png) no-repeat scroll center center transparent;}
+#content_left_btn3:hover {background:url(../images/content_left_button3-1.png) no-repeat scroll center center transparent;}
+#content_left_btn4 {background:url(../images/content_left_button4-0.png) no-repeat scroll center center transparent;}
+#content_left_btn4:hover {background:url(../images/content_left_button4-1.png) no-repeat scroll center center transparent;}
+#content_left_btn5 {background:url(../images/content_left_button5-0.png) no-repeat scroll center center transparent;}
+#content_left_btn5:hover {background:url(../images/content_left_button5-1.png) no-repeat scroll center center transparent;}
+#content_left_btn6 {background:url(../images/content_left_button6-0.png) no-repeat scroll center center transparent;}
+#content_left_btn6:hover {background:url(../images/content_left_button6-1.png) no-repeat scroll center center transparent;}
+
+
+/************ content right ****************/
+#content_right {
+    float: left;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+#content_right_txt {   
+    width: 367px;
+    height: 43px;
+    background:url(../images/content_right_txt.png)  no-repeat scroll center center transparent;
+}
+
+#content_right #input_container {
+    width: 286px;
+    margin: 30px auto 0;   
+}   
+
+#content_right #input_container h2 {
+    margin: 20px 0 0 0;
+    float: left;    
+}
+
+#content_right #input_container input:focus {
+    border-style: none;
+    width: 260px;
+    height: 29px;
+    background:url(../images/content_right_inputbox_focus.png)  no-repeat scroll center center transparent;
+}
+#content_right #input_container input {      
+    border-style: none;
+    width: 260px;
+    height: 29px;
+    background:url(../images/content_right_inputbox_unfocus.png) no-repeat scroll center center transparent;
+    float: left;
+}
+#code_check{
+    width: 16px;
+    height: 29px;
+    background:url(../images/content_right_checked.png) no-repeat scroll center center transparent;
+    margin: 0 0 0 10px;
+    float: left;
+}
+#mail_check{
+    width: 16px;
+    height: 29px;
+    background:url(../images/content_right_unchecked.png) no-repeat scroll center center transparent;
+    margin: 0 0 0 10px;
+    float: left;
+}
+#playbtn{    
+    width: 102px;
+    height: 103px;
+    background:url(../images/playbnt_unfocus.png) no-repeat scroll center center transparent;
+    margin: -48px auto 0;
+}
+#playbtn:hover{
+    width: 102px;
+    height: 103px;
+    background:url(../images/playbnt_focus.png) no-repeat scroll center center transparent;
+}
