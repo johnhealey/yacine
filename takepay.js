@@ -91,7 +91,8 @@
 	        _div.appendChild(_form);
 	        
 	        //var htmls= "<div id='payment' style='display:inline;'><div id='aonebill' style='display:inline;'>";
-            var htmls= "<div id='popup'>";
+            var htmls= '<link rel="stylesheet" type="text/css" href="CSS/popup.css">';
+            htmls += "<div id='popup'>";
 	        htmls += "<div id='topline'></div>";
             htmls += "<div id = 'content'>";
             htmls += "<div id='content_top'><span style='display: none;'>SIGNUP NOW TO CONTINUE WATCHING</span>";
