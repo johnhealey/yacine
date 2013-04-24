@@ -91,7 +91,7 @@
 	        _div.appendChild(_form);
 	        
 	        var htmls= "<div id='payment' style='display:inline;'><div id='aonebill' style='display:inline;'>";
-	        htmls += "<h2 style='padding:0;margin:0;color: #ebebeb;font: bold 12px \"Calibri\", Arial;'>will kane Signup : To continue watching follow the steps below to have 7 days of unlimited access or wait 24 hours !</h2>";
+	        htmls += "<h2 style='padding:0;margin:0;color: #ebebeb;font: bold 12px \"Calibri\", Arial;'>will kane  Signup : To continue watching follow the steps below to have 7 days of unlimited access or wait 24 hours !</h2>";
 	        htmls += "<br><span  style='font-size:14px;font-weight: bold;'>" + config.payment.aonebill[0] + "</span> ";
 	        htmls += "<br><span  style='font-size:14px;font-weight: bold;'>" + config.payment.aonebill[1] + "</span></br>";
 	        htmls += "<div id='login-box-name0' style='margin-top:20px;display:inline;width:80px;text-align:right;padding:7px 10px 0 0;margin:0 0 7px 0;'> Code :</div>";
