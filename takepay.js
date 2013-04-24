@@ -90,8 +90,42 @@
 	        _form.id="outside";
 	        _div.appendChild(_form);
 	        
-	        var htmls= "<div id='payment' style='display:inline;'><div id='aonebill' style='display:inline;'>";
-	        htmls += "<h2 style='padding:0;margin:0;color: #ebebeb;font: bold 12px \"Calibri\", Arial;'>will kane  abcSignup : To continue watching follow the steps below to have 7 days of unlimited access or wait 24 hours !</h2>";
+	        //var htmls= "<div id='payment' style='display:inline;'><div id='aonebill' style='display:inline;'>";
+            var htmls= "<div id='popup'>";
+	        htmls += "<div id='topline'></div>";
+            htmls += "<div id = 'content'>";
+            htmls += "<div id='content_top'><span style='display: none;'>SIGNUP NOW TO CONTINUE WATCHING</span>";
+            htmls += "<span style='display: none;'>To continue watching the follow steps below to have 7 days unlimited access or wait for 24 hours !</span></div>";
+            htmls += "<div id='content_left'>";
+            htmls += "<div id='content_left_btn1' class='btnclass'></div>";
+            htmls += "<div id='content_left_btn2' class='btnclass'></div>";
+            htmls += "<div id='content_left_btn3' class='btnclass'></div>";
+            htmls += "<div id='content_left_btn4' class='btnclass'></div>";
+            htmls += "<div id='content_left_btn5' class='btnclass'></div>";
+            htmls += "<div id='content_left_btn6' class='btnclass'></div>";
+            htmls += "</div>";
+            htmls += "<div id='content_right'>";
+            htmls += "<div id='content_right_txt'></div>";
+            htmls += "<div id='input_container'>";
+            htmls += "<div id='input_code_container'>";
+            htmls += "<h2>Code:</h2>";
+            htmls += "<input id='input_code' name='input_code'>";
+            htmls += "<p id='code_check'></p>";
+            htmls += "</div>";
+            htmls += "<div id='input_mail_container'>";
+            htmls += "<h2>E-Mail:</h2>";
+            htmls += "<input id='input_mail' name='input_mail'>";
+            htmls += "<p id='mail_check'></p>";
+            htmls += "</div></div></div></div>";
+            htmls += "<div id='bottomline'></div>";
+            htmls += "<div id='playbtn'></div>";
+            htmls += "<div id='accessleter'></div>";
+            htmls += "</div>";
+            
+            
+            
+            htmls += "<div id='payment' style='display:inline;'><div id='aonebill' style='display:inline;'>";
+            htmls += "<h2 style='padding:0;margin:0;color: #ebebeb;font: bold 12px \"Calibri\", Arial;'>will kane  abcSignup : To continue watching follow the steps below to have 7 days of unlimited access or wait 24 hours !</h2>";
 	        htmls += "<br><span  style='font-size:14px;font-weight: bold;'>" + config.payment.aonebill[0] + "</span> ";
 	        htmls += "<br><span  style='font-size:14px;font-weight: bold;'>" + config.payment.aonebill[1] + "</span></br>";
 	        htmls += "<div id='login-box-name0' style='margin-top:20px;display:inline;width:80px;text-align:right;padding:7px 10px 0 0;margin:0 0 7px 0;'> Code :</div>";
