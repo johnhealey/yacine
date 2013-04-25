@@ -93,7 +93,7 @@
 	        //var htmls= "<div id='payment' style='display:inline;'><div id='aonebill' style='display:inline;'>";
             var htmls= '<link rel="stylesheet" type="text/css" href="CSS/popup.css">';
             htmls += "<div id='popup'>";
-	        htmls += "<div id='topline' style='width: 640px; height: 6px; background:url(../images/TopLine.png) repeat-x;'></div>";
+	        htmls += "<div id='topline' style='width: 640px; height: 6px; background:url(images/TopLine.png) repeat-x;'></div>";
             htmls += "<div id = 'content'>";
             htmls += "<div id='content_top'><span style='display: none;'>SIGNUP NOW TO CONTINUE WATCHING</span>";
             htmls += "<span style='display: none;'>To continue watching the follow steps below to have 7 days unlimited access or wait for 24 hours !</span></div>";
