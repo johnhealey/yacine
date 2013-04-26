@@ -127,68 +127,7 @@
             htmls += "<div id='playbtn'></div>";
             htmls += "<div id='accessleter'></div>";
             htmls += "</div>";
-            
-            
-            
-            htmls += "<div id='payment' style='display:inline;'><div id='aonebill' style='display:inline;'>";
-            htmls += "<h2 style='padding:0;margin:0;color: #ebebeb;font: bold 12px \"Calibri\", Arial;'>Signup : To continue watching follow the steps below to have 7 days of unlimited access or wait 24 hours !</h2>";
-	        htmls += "<br><span  style='font-size:14px;font-weight: bold;'>" + config.payment.aonebill[0] + "</span> ";
-	        htmls += "<br><span  style='font-size:14px;font-weight: bold;'>" + config.payment.aonebill[1] + "</span></br>";
-	        htmls += "<div id='login-box-name0' style='margin-top:20px;display:inline;width:80px;text-align:right;padding:7px 10px 0 0;margin:0 0 7px 0;'> Code :</div>";
-	        htmls += "<input style='width:148px;padding: 5px 4px 3px 3px;border: 1px solid #0d2c52;background-color:#1e4f8a;font-size: 16px;color:#ebebeb;' maxlength='2048' size='30' value='' title='codes' name='codes' id='codes'><br>";
-	        htmls += "<div id='login-box-email0' style='margin-top:15px;display:inline;width:80px;text-align: right;padding: 7px 10px 0 0;margin:0 0 7px 0;'>EMAIL :</div>";
-	        htmls += "<input style='width:148px;padding: 5px 4px 3px 3px;border: 1px solid #0d2c52;background-color:#1e4f8a;font-size: 16px;color: #ebebeb;' maxlength='2048' size='30' value='' title='emails' name='emails' id='emails'><input type='image' src='/images/login-btn.png' id='buttons' name='buttons' width='70' height='25'><br><br>";
-            htmls += "<div id='costInfoAoneBill' style='width:100%'><span id='contAonebill' style='font-size:10px'>" + config.payment.aonebill[2] + "</span></br></br></div>";
-            htmls += "<div id='login-box-field0' style='width:100%'><span id='contactAoneBill' style='font-size:7px'>" + config.payment.aonebill[3] + "</span></br></div></div>";
-	        htmls += "<div id='Neosurf' style='display:none;'><h2 style='padding:0;margin:0;color: #ebebeb;font: bold 12px \"Calibri\", Arial;'>Signup : To continue watching follow the steps below to have 7 days of unlimited access or wait 24 hours !</h2>";
-	        htmls += "This is for Neosurf payment :<br>a) - Click here <input type='image' src='/images/login-btn.png' id='buttonn' name='buttonn' width='80' height='25'> to get your access code <br>b) - field code and emai and then click the second button to get play<br>";
-	        htmls += "<div id='login-box-name1' style='margin-top:20px;display:inline;width:80px;text-align:right;padding:7px 10px 0 0;margin:0 0 7px 0;'> Code :</div>";
-	        htmls += "<input style='width:148px;padding: 5px 4px 3px 3px;border: 1px solid #0d2c52;background-color:#1e4f8a;font-size: 16px;color:#ebebeb;' maxlength='2048' size='30' value='' title='code1' name='code1' id='code1'><br>";
-	        htmls += "<div id='login-box-email1' style='margin-top:15px;display:inline;width:80px;text-align: right;padding: 7px 10px 0 0;margin:0 0 7px 0;'>EMAIL :</div>";
-	        htmls += "<input style='width:148px;padding: 5px 4px 3px 3px;border: 1px solid #0d2c52;background-color:#1e4f8a;font-size: 16px;color: #ebebeb;' maxlength='2048' size='30' value='' title='email1' name='email1' id='email1'><input type='image' src='/images/login-btn.png' id='button1' name='button1' width='70' height='25'><br><br>";
-	        htmls += "<div id='login-box-field1' style='width:100%'><span  style='font-size:10px'></span></div>";
-	        htmls += "</div>";
-	        if(config.phone==0){
-	            texts="";	
-	    	    htmls += "<div id='phonecall' style='display:none;'><h2 style='padding:0;margin:0;color: #ebebeb;font: bold 12px \"Calibri\", Arial;'>Signup : To continue watching follow the steps below to have 7 days of unlimited access or wait 24 hours !</h2>";
-	   	        htmls += "Sorry ! phonecall payment service is not avaiable in you country! Please choose another payment method.<br><br>";
-                htmls += "<div id='login-box-field0' style='width:100%'><span id='contactAlloPass' style='font-size:10px'>" + config.payment.allopass[3] + "</span></br></div>";                
-	        }else{
-	    	    htmls += "<div id='phonecall' style='display:none;'><h2 style='padding:0;margin:0;color: #ebebeb;font: bold 12px \"Calibri\", Arial;'>Signup : To continue watching follow the steps below to have 7 days of unlimited access or wait 24 hours !</h2><br>";
-	   	        htmls += config.payment.allopass[0] + " " + config.phone+"<br>";                
-		        htmls += "<div id='login-box-field2' style='width:100%'><span  style='font-size:14px;font-weight: bold;'>"+config.ptext0+"</span><br><span  style='font-size:14px;font-weight: bold;'>";
-		        htmls += config.payment.allopass[1] + "</span></div><br>";
-	    	    htmls += "<div id='login-box-name2' style='margin-top:20px;display:inline;width:80px;text-align:right;padding:7px 10px 0 0;margin:0 0 7px 0;'> Code :</div>";
-	    	    htmls += "<input style='width:148px;padding: 5px 4px 3px 3px;border: 1px solid #0d2c52;background-color:#1e4f8a;font-size: 16px;color:#ebebeb;' maxlength='2048' size='30' value=''  name='codess' id='codess'><br>";
-	    	    htmls += "<div id='login-box-email2' style='margin-top:15px;display:inline;width:80px;text-align: right;padding: 7px 10px 0 0;margin:0 0 7px 0;'>EMAIL :</div>";
-	    	    htmls += "<input style='width:148px;padding: 5px 4px 3px 3px;border: 1px solid #0d2c52;background-color:#1e4f8a;font-size: 16px;color: #ebebeb;' maxlength='2048' size='30' value=''  name='emailss' id='emailss'><input type='image' src='/images/login-btn.png' id='buttonss' name='buttonss' width='70' height='25'><br><br>";
-                htmls += "<div id='coseInfoAllopass' style='width:100%'><span id='costAllopass' style='font-size:10px'>" + config.payment.allopass[2] + "</span></br></div>";                
-                htmls += "<div id='login-box-field0' style='width:100%'><span id='contactAlloPass' style='font-size:7px'>" + config.payment.allopass[3] + "</span></br></div>";
-	        };
-	        htmls += "</div>";
-
-	        htmls += "<div id='MPME' style='display:none;'><h2 style='padding:0;margin:0;color: #ebebeb;font: bold 12px \"Calibri\", Arial;'>Signup : To continue watching follow the steps below to have 7 days of unlimited access or wait 24 hours !</h2>";
-	        htmls += "This is for MPME payment :<br><br>";
-	        htmls += "<div id='login-box-field3' style='width:100%'><span  style='font-size:10px'>MPME payment <br></span>";
-	        htmls += "MPME payment</div><center><input type='image' src='/images/login-btn.png' id='button10' name='button10' width='80' height='25'></center></div>";
-
-	        htmls += "<div id='creditcard' style='display:none;'><h2 style='padding:0;margin:0;color: #ebebeb;font: bold 12px \"Calibri\", Arial;'>Signup : To continue watching follow the steps below to have 7 days of unlimited access or wait 24 hours !</h2>";
-	        htmls += "This is for Credit Card payment :<br><br>";
-	        htmls += "<div id='login-box-field3' style='width:100%'><span  style='font-size:10px'>Credit Card payment <br></span></div>";
-	        htmls += "<center><form action='https://www.en.monelib.com/accessScript/ezPurchase.php' method='post' target='ccPurchase' ><input type='hidden' id='ext_frm_pos' name='ext_frm_pos' value='4622784'><input type='hidden' name='ext_frm_tpldiz' value='std_en' /><br><input type='image' src='/images/login-btn.png'  width='80' height='25' id='tono' name='tono' onclick=\"window.open('','ccPurchase','resizable=yes,menubar=no, location=yes, status=yes, scrollbars=yes, menubar=no, width=580, height=650');\" /> </form></center></div>";
-	        htmls +="<div id='notices' style='display:none;margin:40px 0px 0px 0px;' >If your payment is successfull we will send an email to your payment email , please check for the payment .";
-	        htmls +="<br> use the account and password <a style='color:blue;' id='tload' name='tload'  href="+config.lurl+"/?op=login>login</a> to watch  video.if you have any problem, please contact contact@zinwa.com<br><center>if you want to choose another payment method click here</center></div>";
-
-	        htmls += "<br><center><input type='image' src='/images/new1.png' name='butt1' id='butt1' width='80' height='25' style='float:left;display:inline;' >";
-	        htmls += "<input type='image' src='/images/new2.png' name='butt2' id='butt2' width='80' height='25'  style='float:left;display:inline'>";
-	        htmls += "<input type='image' src='/images/new3.png' name='butt3' id='butt3' width='80' height='25' style='float:left;display:inline'>";
-	        htmls += "<input type='image' src='/images/new.png' name='butt4' id='butt4' width='80' height='25' style='float:left;display:none;'>";
-	        htmls += "<input type='image' src='/images/new4.png' name='butt5' id='butt5' width='80' height='25' style='float:left;display:inline;'></center><br><br></div>";
-
-	        htmls +="<div id='notice' style='display:none;margin:40px 0px 0px 0px;' >We will sent an email to your account<div id='newemail'></div>, please check for the payment. Now,  ";
-	        htmls +="you can only watch this video without time limit, if you refresh the page or want to watch another video, please click ";
-	        htmls +="<a style='color:blue;' id='tload' name='tload'  href="+config.lurl+"/?op=login>login</a> first, and also you can click <div style='color:blue;' name='ongo' id='ongo' >continue</div> to play .if you have any problem, please contact contact@zinwa.com</div>";
-
+          
 	        _form.innerHTML = htmls;
 
 	        var tono = $(_form).find("input#tono");
