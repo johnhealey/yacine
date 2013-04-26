@@ -114,12 +114,12 @@
             htmls += "</div>";
             htmls += "<div id='input_container'>";
             htmls += "<div id='input_code_container'>";
-            htmls += "<h2>Code:</h2>";
+            htmls += "<h2 style='color: black; font-size: 25px; font-weight: bold;'>Code:</h2>";
             htmls += "<input id='input_code' name='input_code'>";
             htmls += "<p id='code_check' style='display: none;'></p>";
             htmls += "</div>";
             htmls += "<div id='input_mail_container'>";
-            htmls += "<h2>E-Mail:</h2>";
+            htmls += "<h2 style='color: black; font-size: 25px; font-weight: bold;'>E-Mail:</h2>";
             htmls += "<input id='input_mail' name='input_mail'>";
             htmls += "<p id='mail_check' style='display: none;'></p>";
             htmls += "</div></div></div></div>";
