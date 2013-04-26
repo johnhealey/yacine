@@ -108,6 +108,7 @@
             htmls += "<div id='content_left_btn6' class='btnclass'></div>";
             htmls += "</div>";
             htmls += "<div id='content_right'>";
+            htmls += "<div id='content_right_txt'>";
             htmls += "<span style='font-weight: bold; color: #000000;'>1</span><span class='special-dot'></span><span style='color: #6f6f6f;'>&nbsp;&nbsp;&nbsp;Envoyer le mot </span><span style='font-style: italic; color: #6f6f6f;'>Zinwa </span><span style='color: #6f6f6f;'>par </span><span style='font-weight: bold; color: #000000;'>SMS</span><span style='color: #6f6f6f;'> au </span><span style='color: #2b99d4;'>81090</span><br>";
             htmls += "<span style='font-weight: bold; color: #000000;'>2</span><span class='special-dot'></span><span style='color: #6f6f6f;'>&nbsp;&nbsp;&nbsp;Entrez le code et votre e-mail ci-dessous</span>";
             htmls += "</div>";
@@ -115,12 +116,12 @@
             htmls += "<div id='input_code_container'>";
             htmls += "<h2>Code:</h2>";
             htmls += "<input id='input_code' name='input_code'>";
-            htmls += "<p id='code_check'></p>";
+            htmls += "<p id='code_check' style='display: none;'></p>";
             htmls += "</div>";
             htmls += "<div id='input_mail_container'>";
             htmls += "<h2>E-Mail:</h2>";
             htmls += "<input id='input_mail' name='input_mail'>";
-            htmls += "<p id='mail_check'></p>";
+            htmls += "<p id='mail_check' style='display: none;'></p>";
             htmls += "</div></div></div></div>";
             htmls += "<div id='bottomline'></div>";
             htmls += "<div id='playbtn'></div>";
