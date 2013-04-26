@@ -95,8 +95,10 @@
             htmls += "<div id='popup'>";
 	        htmls += "<div id='topline'></div>";
             htmls += "<div id = 'content'>";
-            htmls += "<div id='content_top'><span style='display: none;'>SIGNUP NOW TO CONTINUE WATCHING</span>";
-            htmls += "<span style='display: none;'>To continue watching the follow steps below to have 7 days unlimited access or wait for 24 hours !</span></div>";
+            htmls += "<div id='content_top'><span style='font-family: Impact; font-size: 39px; color: #363636;'>SIGNUP NOW TO CONTINUE WATCHING</span><br>";
+            htmls += "<hr style='border-top: 2px dotted #2db9ec; height: 3px; width:100%;'>";
+            htmls += "<span style='font-family: Franklin Gothic Book; font-size: 20px; color: #6f6f6f;'>To continue watching the follow steps below to have 7 days unlimited  access or wait</span><span style='font-family: Franklin Gothic Book; font-size: 20px; color: #000000;'> for 24 hours !</span>  ";
+            htmls += "</div>";
             htmls += "<div id='content_left'>";
             htmls += "<div id='content_left_btn1' class='btnclass'></div>";
             htmls += "<div id='content_left_btn2' class='btnclass'></div>";
@@ -106,7 +108,9 @@
             htmls += "<div id='content_left_btn6' class='btnclass'></div>";
             htmls += "</div>";
             htmls += "<div id='content_right'>";
-            htmls += "<div id='content_right_txt'></div>";
+            htmls += "<span style='font-weight: bold; color: #000000;'>1</span><span class='special-dot'></span><span style='color: #6f6f6f;'>&nbsp;&nbsp;&nbsp;Envoyer le mot </span><span style='font-style: italic; color: #6f6f6f;'>Zinwa </span><span style='color: #6f6f6f;'>par </span><span style='font-weight: bold; color: #000000;'>SMS</span><span style='color: #6f6f6f;'> au </span><span style='color: #2b99d4;'>81090</span><br>";
+            htmls += "<span style='font-weight: bold; color: #000000;'>2</span><span class='special-dot'></span><span style='color: #6f6f6f;'>&nbsp;&nbsp;&nbsp;Entrez le code et votre e-mail ci-dessous</span>";
+            htmls += "</div>";
             htmls += "<div id='input_container'>";
             htmls += "<div id='input_code_container'>";
             htmls += "<h2>Code:</h2>";
