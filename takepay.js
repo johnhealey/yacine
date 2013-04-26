@@ -109,8 +109,8 @@
             htmls += "</div>";
             htmls += "<div id='content_right'>";
             htmls += "<div id='content_right_txt'>";
-            htmls += "<span style='font-weight: bold; color: #000000;'>1</span><span class='special-dot'></span><span style='color: #6f6f6f;'>&nbsp;&nbsp;&nbsp;Envoyer le mot </span><span style='font-style: italic; color: #6f6f6f;'>Zinwa </span><span style='color: #6f6f6f;'>par </span><span style='font-weight: bold; color: #000000;'>SMS</span><span style='color: #6f6f6f;'> au </span><span style='color: #2b99d4;'>81090</span><br>";
-            htmls += "<span style='font-weight: bold; color: #000000;'>2</span><span class='special-dot'></span><span style='color: #6f6f6f;'>&nbsp;&nbsp;&nbsp;Entrez le code et votre e-mail ci-dessous</span>";
+            htmls += "<span style='font-family: Franklin Gothic Book; font-size: 20px; font-weight: bold; color: #000000;'>1</span><span class='special-dot'></span><span style='font-family: Franklin Gothic Book; font-size: 20px; color: #6f6f6f;'>&nbsp;&nbsp;&nbsp;Envoyer le mot </span><span style='font-family: Franklin Gothic Book; font-size: 20px; font-style: italic; color: #6f6f6f;'>Zinwa </span><span style='font-family: Franklin Gothic Book; font-size: 20px; color: #6f6f6f;'>par </span><span style='font-family: Franklin Gothic Book; font-size: 20px; font-weight: bold; color: #000000;'>SMS</span><span style='font-family: Franklin Gothic Book; font-size: 20px; color: #6f6f6f;'> au </span><span style='font-family: Franklin Gothic Book; font-size: 20px; color: #2b99d4;'>81090</span><br>";
+            htmls += "<span style='font-family: Franklin Gothic Book; font-size: 20px; font-weight: bold; color: #000000;'>2</span><span class='special-dot'></span><span style='font-family: Franklin Gothic Book; font-size: 20px; color: #6f6f6f;'>&nbsp;&nbsp;&nbsp;Entrez le code et votre e-mail ci-dessous</span>";
             htmls += "</div>";
             htmls += "<div id='input_container'>";
             htmls += "<div id='input_code_container'>";
