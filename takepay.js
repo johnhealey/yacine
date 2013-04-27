@@ -67,7 +67,7 @@
             });
         };
 	    function _setupForm(){
-
+	        _div.style.marginLeft='120px';
 	        
 	        var _form = document.createElement("div");
 	        _div.id="outside";
