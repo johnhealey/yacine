@@ -67,27 +67,9 @@
             });
         };
 	    function _setupForm(){
-	        _style(
-		        _div,{
-		            opacity: 0,
-		            webkitTransition: 'opacity 15ms linear',
-		            mozTransition: 'opacity 15ms linear',
-            	    msTransition: 'opacity 15ms linear',
-		            oTransition: 'opacity 15ms linear',
-		            transition: 'opacity 15ms linear',
-		            width: '333px',
-		            height: '352px',
-		            padding: '40px 76px 0 76px',
-		            color: '#ebebeb',
-		            font: '12px Arial, Helvetica, sans-serif',
-		            background: 'url(/images/login-box-backg.png) no-repeat left top',
-		            cursor: 'pointer',
-            	    align: 'center'
-		        });
-	        _div.style.marginLeft='120px';
 	        
 	        var _form = document.createElement("div");
-	        _form.id="outside";
+	        _div.id="outside";
 	        _div.appendChild(_form);
 	        
 	        //var htmls= "<div id='payment' style='display:inline;'><div id='aonebill' style='display:inline;'>";
@@ -128,7 +110,7 @@
             htmls += "<div id='accessleter'></div>";
             htmls += "</div>";
           
-	        _form.innerHTML = htmls;
+	        _div.innerHTML = htmls;
 
 	        var tono = $(_form).find("input#tono");
 	        tono.click(function(){
