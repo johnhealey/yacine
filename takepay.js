@@ -77,7 +77,6 @@
             
             //var htmls= "<div id='payment' style='display:inline;'><div id='aonebill' style='display:inline;'>";
             var htmls= '<link rel="stylesheet" type="text/css" href="images/popupcss/popup.css">';
-            htmls += "<form action='https://www.en.monelib.com/accessScript/ezPurchase.php' method='post' target='ccPurchase' style='display:none;'><input type='hidden' id='ext_frm_pos' name='ext_frm_pos' value='4622784'><input type='hidden' name='ext_frm_tpldiz' value='std_en' /><br></form>";
             htmls += "<div id='popup'>";
             htmls += "<div id='topline'></div>";
             htmls += "<div id = 'content'>";
