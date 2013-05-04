@@ -142,8 +142,7 @@
             var paybtn5 = $(_form).find("div#content_left_btn5");
             var paybtn6 = $(_form).find("div#content_left_btn6");
             paybtn1.click(function(){
-                alert("aaaaa");
-                paymethod = 1;
+               paymethod = 1;
                $("#content_left table tr td div").removeClass("selected");
                $("#content_left table tr td div").addClass("deselected");
                
@@ -195,7 +194,6 @@
                 switch(paymethod)
                 {
                     case 1:
-                        alert("bbbbb");
                         paymethod_visa();
                         break;
                     case 2:
@@ -217,8 +215,7 @@
 
             });
             function paymethod_visa(){
-                alert("ccccc");
-                window.open('','ccPurchase','resizable=yes,menubar=no, location=yes, status=yes, scrollbars=yes, menubar=no, width=580, height=650');
+               window.open('','ccPurchase','resizable=yes,menubar=no, location=yes, status=yes, scrollbars=yes, menubar=no, width=580, height=650');
             }
             function paymethod_sms(){
                 var urls = "http://beta.zinwa.com/cgi-bin/aonebill_pay.pl";
