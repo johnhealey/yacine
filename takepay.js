@@ -128,7 +128,7 @@
             htmls += "<div id='accessleter'></div>";
             htmls += "</div>";
           
-            _div.innerHTML = htmls;
+            _form.innerHTML = htmls;
             /*
               var tload = $(_form).find("a#tload");
               tload.click(function(){
